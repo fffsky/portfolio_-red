@@ -43,9 +43,7 @@ header
   margin-bottom: 0.1vw;
   margin-top: 0.2vw;
 }
-.navigation .nav-about a {
-  margin-top: 0.3vw;
-}
+
 .navigation .nav-projects img {
   width: 1.71vw;
   height: 1.61vw;
@@ -58,7 +56,7 @@ header
   text-decoration: none;
   color: #707070;
   display: block;
-}
+padding-bottom: 0.3vw;}
 /*-------------------------------------------
 main-visual
 -------------------------------------------*/
@@ -298,7 +296,7 @@ SP
   .navigation a {
     border-bottom: none;
     margin-bottom: 1.16vw;
-    font-size: 0.83vw;
+    font-size: 2.83vw;
     text-decoration: none;
     color: #707070;
     display: block;
