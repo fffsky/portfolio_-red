@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Avenir;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+.header {
+  border-bottom: solid 3px #e04444;
+}
+.navigation {
+  display: flex;
+  margin: 0.41vw 0 0.78vw 1.82vw;
+  align-items: center;
+  text-align: center;
+}
+.navigation li {
+  margin-right: 2.64vw;
+}
+.nav-projects_about {
+  display: flex;
+}
+/* メニューアイコン */
+.navigation .nav-home img {
+  width: 2.13vw;
+  height: 2.13vw;
+}
+.navigation .nav-about img {
+  width: 1.3vw;
+  height: 1.14vw;
+  margin-bottom: 0.1vw;
+  margin-top: 0.2vw;
+}
+.navigation .nav-about a {
+  margin-top: 0.3vw;
+}
+.navigation .nav-projects img {
+  width: 1.71vw;
+  height: 1.61vw;
+}
+/* メニュー文字 */
+.navigation a {
+  border-bottom: 3px #707070 dotted;
+  margin-bottom: 0.26vw;
+  font-size: 0.83vw;
+  text-decoration: none;
+  color: #707070;
+  display: block;
+}
+/*-------------------------------------------
+main-visual
+-------------------------------------------*/
+.main-visual {
+  position: relative;
+}
+.main-visual .name {
+  position: absolute;
+  top: 7.4vw;
+  left: 8.27vw;
+}
+.main-visual h1 {
+  color: #555353;
+  font-size: 9.11vw;
+  line-height: 1;
+  margin-bottom: 2.55vw;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.main-visual p {
+  color: #e04444;
+  font-size: 2.23vw;
+  letter-spacing: 3.5px;
+}
+.fv {
+  padding-top: 4.37vw;
+  margin-left: 42.2vw;
+  font-size: 0;
+}
+.fv img {
+  width: 52vw;
+  height: 52vw;
+}
+/*-------------------------------------------
+common
+-------------------------------------------*/
+.container {
+  text-align: center;
+  padding-top: 5vw;
+}
+.section-title {
+  font-size: 2.86vw;
+
+  margin: 0 auto 1.04vw;
+  font-family: Avenir;
+  font-weight: unset;
+}
+.title-wrapper img {
+  width: 15.6vw;
+  height: 1.23vw;
+}
+/*-------------------------------------------
+about
+-------------------------------------------*/
+.about {
+  background-color: #e04444;
+  color: #f8f5f5;
+}
+.about .container {
+  margin: 0 19.7vw;
+}
+.about .title-wrapper {
+  margin-bottom: 9.34vw;
+}
+.program-language {
+  font-size: 1.56vw;
+  margin-bottom: 1.92vw;
+}
+.text {
+  font-size: 1.04vw;
+  margin-bottom: 2.23vw;
+}
+.support {
+  padding-bottom: 4.63vw;
+}
+.support p {
+  font-size: 1.04vw;
+  margin-bottom: 1.71vw;
+}
+.support img {
+  width: 6.87vw;
+  height: 2.6vw;
+}
+/*-------------------------------------------
+projects
+-------------------------------------------*/
+.projects .title-wrapper {
+  margin-bottom: 6.25vw;
+}
+.projects .section-title {
+  color: #e04343;
+}
+.projects-flex {
+  display: flex;
+}
+.project-list {
+  width: 50%;
+}
+.project-img {
+  margin: 0 5.02vw;
+  border: solid #e04343 2px;
+  font-size: 0;
+  width: 37.4vw;
+  height: 31.5vw;
+}
+.project-img img {
+  width: 30.3vw;
+  height: 26.9vw;
+  margin: 2.29vw;
+}
+.content-title {
+  border-bottom: solid 3px #aaadae;
+  margin-top: 2.08vw;
+  font-size: 2.34vw;
+  padding: 0px 0 5px;
+  display: inline-block;
+}
+.pc-h3 {
+  display: inline-block;
+}
+.sp-h3 {
+  display: none;
+}
+.project-text {
+  margin-top: 2.08vw;
+  font-size: 1.25vw;
+}
+.account {
+  margin: 1.56vw 0 1.71vw;
+}
+.account p {
+  font-size: 1.14vw;
+  margin-top: 0.78vw;
+}
+.project-link {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  font-size: 1.3vw;
+  color: #fff;
+  margin: 0 14.06vw;
+}
+.project-link li {
+  background-color: #e04343;
+  padding: 1.04vw 1.18vw;
+  margin-top: 0px;
+}
+/*-------------------------------------------
+contact
+-------------------------------------------*/
+.contact .title-wrapper {
+  margin-bottom: 4.58vw;
+}
+.contact span {
+  color: #e04444;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.contact-list {
+  background-color: #e9efef;
+  border-bottom: 5px solid #e04444;
+  width: 30.88vw;
+  margin: 4.68vw 11.25vw 9.89vw;
+  text-align: center;
+}
+.contact-list img {
+  width: 3.12vw;
+  height: 3.12vw;
+  margin: 2.34vw 0 1.56vw;
+}
+.life-line {
+  border-bottom: solid 3px #6d6d6f;
+  padding-bottom: 1.56vw;
+  font-size: 1.14vw;
+  width: 7.81vw;
+  margin: 0 auto 2.08vw;
+  font-size: 1.3vw;
+}
+.detail {
+  font-size: 1.56vw;
+  width: 17.5vw;
+  margin: 0 auto 2.64vw;
+}
+.detail-email {
+  color: #e04343;
+  border-bottom: #e04343 dotted 4px;
+}
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+#footer {
+  background-color: #e9efef;
+  text-align: center;
+}
+#footer p {
+  font-size: 0.52vw;
+  padding: 1.04vw;
+  color: #938f8f;
+}
+
+/*--------------------------------------------
+SP
+--------------------------------------------- */
+@media screen and (max-width: 428px) {
+  /* header ----------------------*/
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.1vw 0 0.78vw 5.14vw;
+    align-items: center;
+    text-align: center;
+  }
+  .navigation li {
+    margin-right: 2.64vw;
+  }
+  .navigation .nav-home {
+    justify-content: start;
+  }
+  .navigation .nav-home img {
+    width: 6.77vw;
+    height: 6.77vw;
+  }
+  .navigation .nav-about img {
+    width: 4.88vw;
+    height: 4.32vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.2vw;
+  }
+  .navigation .nav-projects img {
+    width: 6.47vw;
+    height: 6.05vw;
+    margin-top: 1vw;
+  }
+  .navigation a {
+    border-bottom: none;
+    margin-bottom: 1.16vw;
+    font-size: 0.83vw;
+    text-decoration: none;
+    color: #707070;
+    display: block;
+  }
+  /* main-visual ------------------------*/
+  .main-visual .name {
+    position: absolute;
+    top: 6.07vw;
+    left: 12.85vw;
+  }
+  .main-visual h1 {
+    color: #555353;
+    font-size: 20vw;
+    letter-spacing: 1px;
+  }
+  .main-visual p {
+    color: #e04444;
+    font-size: 5.14vw;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .fv {
+    padding-top: 64.95vw;
+    margin-left: 0;
+    font-size: 0;
+    width: 100%;
+  }
+  .fv img {
+    width: 100%;
+    height: 95.79vw;
+  }
+  /* common ------------------------*/
+  .container {
+    padding-top: 19.39vw;
+  }
+  .section-title {
+    font-size: 4.67vw;
+    margin-bottom: 5.84vw;
+  }
+  .title-wrapper img {
+    width: 40.42vw;
+    height: 2.14vw;
+  }
+
+  /* about ------------------------*/
+  .about .container {
+    margin: 0 4vw;
+  }
+  .about .section-title {
+    margin-bottom: 0;
+  }
+  .about .text p {
+    font-size: 10px;
+    transform: scale(0.8);
+    text-align: start;
+    margin-bottom: 4.2vw;
+  }
+  .program-language {
+    font-size: 3.03vw;
+    margin-bottom: 1.92vw;
+  }
+  .support {
+    padding-bottom: 14.01vw;
+  }
+  .support img {
+    width: 22.89vw;
+    height: 8.64vw;
+  }
+  .support p {
+    margin-bottom: 3.5vw;
+  }
+  /* projects ------------------------*/
+  .projects .title-wrapper {
+    margin: 0;
+  }
+  .projects .title-wrapper img {
+    width: 40.42vw;
+    height: 2.14vw;
+    margin-bottom: 17.05vw;
+  }
+  .projects-flex {
+    flex-direction: column;
+  }
+  .project-list {
+    width: 100%;
+  }
+  .project-img {
+    margin: 0 8.68vw 10.51vw;
+    border: solid #e04343 2px;
+    font-size: 0;
+    width: 84.5vw;
+    height: 79.2vw;
+  }
+  .project-img img {
+    width: 74.5vw;
+    height: 60.9vw;
+    margin: 9.34vw 4.67vw;
+  }
+  .content-title {
+    font-size: 5.84vw;
+    font-weight: 100;
+    margin-bottom: 3.97vw;
+  }
+  .pc-h3 {
+    display: none;
+  }
+  .sp-h3 {
+    display: inline-block;
+  }
+  .project-text p {
+    font-size: 3.03vw;
+  }
+  .project-link {
+    margin: 0 20.3vw;
+    font-size: 4.43vw;
+  }
+  .project-link li {
+    padding: 2.33vw 3.97vw;
+    margin: 3.97vw 0 0;
+  }
+  .twitter li {
+    margin-bottom: 17.28vw;
+  }
+  .account h4 {
+    font-size: 3.73vw;
+    margin-top: 5.37vw;
+    margin-bottom: 2.33vw;
+    font-weight: 100;
+  }
+  .account p {
+    font-size: 2.57vw;
+  }
+  /* contact ------------------------*/
+  .contact-flex {
+    flex-direction: column;
+    margin: 10.7vw 7.94vw 9.34vw;
+  }
+  .contact-list {
+    background-color: #e9efef;
+    border-bottom: 5px solid #e04444;
+    width: 84.57vw;
+    text-align: center;
+    margin: 0 0 5.6vw 0;
+  }
+  .contact-list img {
+    width: 10.5vw;
+    height: 10.5vw;
+    margin: 9.34vw 0 4.2vw;
+  }
+  .detail {
+    width: 57.4vw;
+    font-size: 4.67vw;
+    margin-bottom: 5.84vw;
+  }
+  .life-line {
+    font-size: 4.67vw;
+    text-align: center;
+    margin: 1vw auto 2.3vw;
+    width: 26.16vw;
+  }
+  /* footer ------------------------*/
+  #footer p {
+    font-size: 3.97vw;
+    padding: 4.67vw 0;
+  }
+}
